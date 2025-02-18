@@ -1,0 +1,94 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-pink: #fb96a3;
+    --main-red: #f7455d;
+}
+
+body {
+    background-image: linear-gradient(62deg, var(--main-white) 0%, var(--main-pink) 100%);
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: var(--main-red);
+    top : 0;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    align-items: center;
+
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    right: 0;
+    position: absolute;
+    margin: 0;
+    padding-right: 50px;
+    gap: 30px;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+.pertama {
+    margin: auto;
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.pertama h1 {
+    color: var(--main-red);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.pertama p {
+    color: var(--main-black);
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.projects {
+    color: var(--main-white);
+    height: 80vh;
+}
+
+.projects h2 {
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    border-bottom: 1px solid var(--main-white);
+    padding-bottom: 5px;
+    max-width: 400px;
+}
+
+.project-tile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px auto;
+    justify-content: center;
+    max-width: 900px;
+}
+
+
+
